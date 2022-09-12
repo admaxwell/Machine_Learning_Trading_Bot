@@ -1,1 +1,1 @@
-# Machine_Learning_Trading_Bot
+# Machine Learning Trading Bot

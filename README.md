@@ -1,7 +1,7 @@
 # Machine Learning Trading Bot
 
 
-This project produces a Jupyter Notebook that uses machine learning to create a trading bot that will execute trades on predefined conditions. 
+This project produces a Jupyter Notebook that uses machine learning to create a trading bot that will execute trades based on predefined conditions. 
 
 
 ---

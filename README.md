@@ -1,8 +1,7 @@
 # Machine Learning Trading Bot
-# Credit Risk Classification
 
-This project produces a Jupyter Notebook that uses machine learning to assess credit risk. Using the imbalanced-learn library a logistic regression model will be built to compare healthy loans vs non healthy loans to determine credit risk. The models built in this project will use histroical data that is provided by a lending service company that focuses on peer to peer lending. 
 
+This project produces a Jupyter Notebook that uses machine learning to create a trading bot that will execute trades on predefined conditions. 
 
 
 ---
@@ -28,18 +27,27 @@ OS: Darwin arm64 21.4.0
 
 ## Libraries used in analysis
 
+import pandas as pd
 
 import numpy as np
 
-import pandas as pd
-
 from pathlib import Path
 
-from sklearn.metrics import balanced_accuracy_score
+import holoviews as hv
 
-from sklearn.metrics import confusion_matrix
+import hvplot.pandas
 
-from imblearn.metrics import classification_report_imbalanced
+import matplotlib.pyplot as plt
+
+from sklearn import svm
+
+from sklearn.preprocessing import StandardScaler
+
+from pandas.tseries.offsets import DateOffset
+
+from sklearn.metrics import classification_report
+
+%matplotlib inline
 
 
 ---
